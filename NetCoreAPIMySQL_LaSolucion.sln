@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAPIMySQL_LaSolucion", "NetCoreAPIMySQL_LaSolucion\NetCoreAPIMySQL_LaSolucion.csproj", "{3B59E065-A50B-476C-9112-D13DE734CFFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreAPIMySQL_LaSolucion", "NetCoreAPIMySQL_LaSolucion\NetCoreAPIMySQL_LaSolucion.csproj", "{3B59E065-A50B-476C-9112-D13DE734CFFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAPIMySQL.Data", "NetCoreAPIMySQL.Data\NetCoreAPIMySQL.Data.csproj", "{48FD739F-D075-4B82-9CBE-A42603DC04FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreAPIMySQL.Data", "NetCoreAPIMySQL.Data\NetCoreAPIMySQL.Data.csproj", "{48FD739F-D075-4B82-9CBE-A42603DC04FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAPIMySQL.Model", "NetCoreAPIMySQL.Model\NetCoreAPIMySQL.Model.csproj", "{B6106DA0-126F-4A5D-A102-B02EA97DCE95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreAPIMySQL.Model", "NetCoreAPIMySQL.Model\NetCoreAPIMySQL.Model.csproj", "{B6106DA0-126F-4A5D-A102-B02EA97DCE95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base de Datos MySQL", "Base de Datos MySQL", "{BAA9FD45-0A94-4BAA-BD15-2B84017F5839}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\lasolucion.sql = ..\..\..\Downloads\lasolucion.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
